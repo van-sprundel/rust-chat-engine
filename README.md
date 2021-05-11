@@ -1,5 +1,9 @@
 # rust-chat-engine
-A simple rust chat engine that uses 0 dependencies
+A simple rust p2p chat using TCP and 0 dependencies
 
 ## Usage
-Run ``cargo run [client|server]``
+Run the following in seperate terminals:
+```
+cargo run --example server
+cargo run --example client
+```

@@ -2,9 +2,8 @@ use std::io::{ErrorKind, Read, Write};
 use std::net::TcpListener;
 use std::sync::mpsc;
 use std::thread;
-use std::time::SystemTime;
 
-const LOCAL: &str = "127.0.0.1:6000";
+const LOCAL: &str = "0.0.0.0:6000";
 const MSG_SIZE: usize = 300;
 
 fn sleep() {
